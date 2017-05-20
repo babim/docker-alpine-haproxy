@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 set -ex
 
+export HAPROXY_MAJOR=1.8
+
 BUILD_DEPS="make gcc libc-dev linux-headers python pcre-dev openssl-dev zlib-dev"
 RUN_DEPS="pcre libssl1.0 libcrypto1.0 zlib"
 
