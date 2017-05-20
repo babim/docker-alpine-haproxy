@@ -1,6 +1,7 @@
 # HAProxy Alpine Linux image
+#### thanks janeczku
 
-[![](https://images.microbadger.com/badges/image/janeczku/alpine-haproxy.svg)](https://microbadger.com/images/janeczku/alpine-haproxy) [![Docker Pulls](https://img.shields.io/docker/pulls/janeczku/alpine-haproxy.svg)](https://hub.docker.com/r/janeczku/alpine-haproxy/)
+[![](https://images.microbadger.com/badges/image/babim/haproxy.svg)](https://microbadger.com/images/babim/haproxy) [![Docker Pulls](https://img.shields.io/docker/pulls/babim/haproxy.svg)](https://hub.docker.com/r/babim/haproxy/)
 
 A micro image providing HAProxy based on [Alpine Linux](https://hub.docker.com/_/alpine/).
 
@@ -46,5 +47,5 @@ $ docker run -d repo/haproxy
 ## Directly via bind mount
 
 ```console
-$ docker run -d -v /path/to/haproxy.cfg:/etc/haproxy/haproxy.cfg:ro janeczku/alpine-haproxy:1.7
+$ docker run -d -v /path/to/haproxy.cfg:/etc/haproxy/haproxy.cfg:ro babim/haproxy
 ```
